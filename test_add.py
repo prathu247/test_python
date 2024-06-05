@@ -20,7 +20,7 @@ def add(a):
         total = sum(value_int_list)
         return total
     except ValueError as e:
-        print(e)
+        raise e
 
 
 class TestAddFunction(unittest.TestCase):
